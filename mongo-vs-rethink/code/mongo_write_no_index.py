@@ -1,7 +1,7 @@
 import pymongo
 import time
 
-client = pymongo.MongoClient()
+client = pymongo.MongoClient(j=True)
 db = client.test_db
 coll = db.test_collection
 
